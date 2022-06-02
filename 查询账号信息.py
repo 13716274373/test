@@ -18,5 +18,3 @@ driver.find_element_by_xpath('//*[@id="userId"]').send_keys('107340') #操作房
 time.sleep(3)#延时3s
 driver.find_element_by_xpath("/html/body/table/tbody/tr[1]/td[3]/button[1]").click()#点击按钮查询账号信息
 auto_setup(__file__)
-
-driver.implicitly_wait(100)
